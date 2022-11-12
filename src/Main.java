@@ -35,6 +35,14 @@ public class Main {
         System.out.println("На каждого ученика рассчитано "+listForStudent+" листов бумаги");
         System.out.println(" ");
         System.out.println("Задача 4");
-
+        int productivityPerMinute = 16/2;
+        int productivity = productivityPerMinute*20;
+        System.out.println("За 20 минут машина произвела бутылок "+productivity+" штук ");
+        productivity = productivityPerMinute*(60*24);
+        System.out.println("За сутки машина произвела бутылок "+productivity+" штук ");
+        productivity = productivityPerMinute*(60*24*3);
+        System.out.println("За три дня машина произвела бутылок "+productivity+" штук ");
+        productivity = productivityPerMinute*(60*24*30);
+        System.out.println("За 1 месяц машина произвела бутылок "+productivity+" штук ");
     }
 }
